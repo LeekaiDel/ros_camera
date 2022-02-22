@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>camera_calibrate_mono</name>
+  <name>ros_camera</name>
   <version>0.0.0</version>
-  <description>The camera_calibrate_mono package</description>
+  <description>The ros_camera package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -50,11 +50,11 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>camera_calibration</build_depend>
-  <build_depend>usb_cam,</build_depend>
+  <build_depend>usb_cam</build_depend>
   <build_export_depend>camera_calibration</build_export_depend>
-  <build_export_depend>usb_cam,</build_export_depend>
+  <build_export_depend>usb_cam</build_export_depend>
   <exec_depend>camera_calibration</exec_depend>
-  <exec_depend>usb_cam,</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

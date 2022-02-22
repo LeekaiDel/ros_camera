@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(camera_calibrate_mono)
+project(ros_camera)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -9,7 +9,7 @@ project(camera_calibrate_mono)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   camera_calibration
-  usb_cam,
+  usb_cam
 )
 
 ## System dependencies are found with CMake's conventions

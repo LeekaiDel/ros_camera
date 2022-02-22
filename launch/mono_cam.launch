@@ -7,15 +7,14 @@
   <arg name="WIDTH" default="1280" />
   <arg name="HEIGHT" default="720" />
   <arg name="FRAMERATE" default="30" />
-  
+
   <!--start the left camera-->
-  <node respawn="true" pkg="usb_cam" type="usb_cam_node"  clear_params="true" name="camera_mono" ns="$(arg CAMERA_NAME)">
+  <node respawn="true" pkg="usb_cam" type="usb_cam_node"  clear_params="true" name="$(arg CAMERA_NAME)">
     <param name="video_device" value="$(arg CAM_DEVICE)" type="string"/>
     <param name="pixel_format" value="mjpeg" type="string"/>
     <param name="image_width" value="$(arg WIDTH)" type="int"/>
     <param name="image_height" value="$(arg HEIGHT)" type="int"/>
     <param name="framerate" value="$(arg FRAMERATE)" type="int"/>
-    <!--param name="do_rectify" value="$(arg FRAMERATE)" type="int"/-->
 
 
     <param name="camera_name" value="$(arg CAMERA_NAME)" type="string"/>

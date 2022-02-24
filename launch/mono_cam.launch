@@ -2,8 +2,8 @@
 
 <launch>
   <arg name="CAMERA_NAME" default="main_camera" />
-  <arg name="CAM_DEVICE" default="/dev/video0" />
-  <arg name="CAM_INFO_URL" value="file:///home/leekaidel/catkin_ws/src/ros_camera/calibrationdata/ost.yaml" />
+  <arg name="CAM_DEVICE" default="/dev/video2" />
+  <arg name="CAM_INFO_URL" value="file:///home/leekai/catkin_ws/src/ros_camera/calibrationdata/ost.yaml" />
   <arg name="WIDTH" default="1280" />
   <arg name="HEIGHT" default="720" />
   <arg name="FRAMERATE" default="30" />
